@@ -20,7 +20,7 @@ void setup() {
 
     xdrmem_create(&p, (char *) msg, sizeof(msg), XDR_ENCODE);
 
-    Serial.println("create done.");
+    Serial.println("xdr created with msg as memory buffer.");
     Serial.flush();
 
     Serial.print("sizeof(*p.x_ops) = ");
