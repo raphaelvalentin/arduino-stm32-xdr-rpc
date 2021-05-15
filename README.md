@@ -3,7 +3,7 @@
 -- Code still in development / proof of concept --
 
 XDR/RPC protocol for Arduino STM32Core based on the Sun Microsystems XRD/RPC Source Code. 
-Tested with the Arduino 1.8.13, STMCore with the STM32F405 MCU as a proof of concept.
+Tested with the Arduino 1.8.13 IDE, STMCore lib for a STM32F405 MCU as a proof of concept.
 
 ## Purpose
 
