@@ -27,24 +27,25 @@ void setup() {
     Serial.println(p.x_handy);
     Serial.flush();
 
-//   const char string[] = "totoa"; // do not work
-    const char *testid= "test_xdrmem_string";
+//   const char test_string[] = "totoa"; // do not work with xdr_string but works with xdr_opaque
+    const char *test_string = "test_xdrmem_string";
 
-    int ret = xdr_string(&p,  (char **) &testid, strlen(testid));
+    int ret = xdr_string(&p,  (char **) &test_string, strlen(test_string));
 
-    Serial.print("xdr_string2 return =");
+    Serial.print("ret =");
     Serial.println(ret);
+    Serial.flush();
 
-//   xdr_opaque(&p, (char *) string,  strlen(string));
+//   xdr_opaque(&p, (char *) test_string,  strlen(test_string));
+    
 //   unsigned long x = 1234;
 //   bool ret = xdr_u_long(&p, &x);
 
-    Serial.print("data =");
-    Serial.flush();
+    Serial.print("msg =");
     for (int i = 0; i < 64; ++i)
     {
         Serial.print(msg[i], HEX);
-       Serial.print(", ");
+        Serial.print(", ");
     }
     Serial.println();
     Serial.flush();
