@@ -1,3 +1,7 @@
+/*
+ * test script with Arduino
+ */
+
 
 #include "rpc.h"
 
