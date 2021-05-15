@@ -1,4 +1,4 @@
-# arduino-stm32-xdr
+# arduino-stm32-xdr-rpc
 
 -- Code still in development / proof of concept --
 
