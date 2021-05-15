@@ -35,7 +35,7 @@ Python has it own implementation (`xdrlib`). This can be used to check/debug fun
 
 ## Licenses
 
-Except the `*.ino` files (MIT license), and despite the code modifications, the entire source code is not belong to me. Please refer to the license description for each file. For any infringments of copyright or misunderstanding of the licenses, please let me know in advance. My goal is to share the modified library for an application with the Arduino software and an Arm MCU in consideration that the basic code, and the ideas are not my properties.
+Except the `*.ino` files (MIT license), and despite the code modifications, the entire source code is not belong to me. Please refer to the license description for each file. For any infringments of copyright or misunderstanding of the licenses, please let me know in advance. My goal is to share the modified library for an application with the Arduino software and an Arm MCU in consideration that the basic code, and the ideas are not my property.
 
 ## More information at
 
