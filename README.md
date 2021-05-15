@@ -19,9 +19,9 @@ The library uses the functions `__builtin_bswap16`, `__builtin_bswap32` for very
 
 ## Examples of using cases
 
-1. transmit & receive information data such as integers, size-variable strings, floats, structures, enums in a binary format from one device to another device via USB, TCP, etc.
-2. store & load information data such as integers, size-variable strings, floats, structures, enums in a binary format into a memory such as Flash, EEprom, etc.
-3. protocols such as VXI11 designed for connecting instruments (such as oscilloscopes, multimeters, spectrum analyzers, etc.) to controllers (e.g., PCs) use the underlying XDR/RPC protocol.
+1. Transmit & receive information data such as integers, size-variable strings, floats, structures, enums in a binary format from one device to another device via USB, TCP, etc.
+2. Store & load information data such as integers, size-variable strings, floats, structures, enums in a binary format into a memory such as Flash, EEprom, etc.
+3. Protocols such as VXI11 designed for connecting instruments (such as oscilloscopes, multimeters, spectrum analyzers, etc.) to controllers (e.g., PCs) use the underlying XDR/RPC protocol.
 
 ## Why reuse the c-code originally described by Sun
 
@@ -44,6 +44,6 @@ Except the `*.ino` files (MIT license), and despite the code modifications, the 
 
 ## Future
 
-1. clean up a bit the source code
-2. create test functions
-3. create a python code to correct the generated code by rpcgen in order to pass a compilation.
+1. Clean up a bit the source code
+2. Create test functions
+3. Create a python code to correct the generated code made by rpcgen in order to pass a compilation.
