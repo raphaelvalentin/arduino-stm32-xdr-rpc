@@ -19,8 +19,8 @@ The library uses the functions `__builtin_bswap16`, `__builtin_bswap32` for very
 
 ## Examples of using cases
 
-1. Transmit & receive information data such as integers, size-variable strings, arrays, floats, structures, enums in a binary format from one device to another device via USB, TCP, etc.
-2. Store & load information data such as integers, size-variable strings, arrays, floats, structures, enums in a binary format into a memory such as Flash, EEprom, etc.
+1. Transmit & receive information data such as integers, (size-variable) strings, arrays, floats, structures, enums in a binary format from one device to another device via USB, TCP, etc.
+2. Store & load information data such as integers, (size-variable) strings, arrays, floats, structures, enums in a binary format into a memory such as Flash, EEprom, etc.
 3. Protocols such as VXI11 designed for connecting instruments (such as oscilloscopes, multimeters, spectrum analyzers, etc.) to controllers (e.g., PCs) use the underlying XDR/RPC protocol.
 
 ## Why reuse the c-code originally described by Sun
