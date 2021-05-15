@@ -13,6 +13,10 @@ Mostly use with Ethernet in OS (e.g. NFS), I can see XDR of great interest as a 
 Adapted from the source codes of `portablexdr-4.9.1` (https://github.com/Alexpux/portablexdr) and `bsd-xdr-master` (https://github.com/woodfishman/bsd-xdr).
 A `diff` can be used to observe the code differences.
 
+## Feature
+
+The library uses the functions `__builtin_bswap16`, `__builtin_bswap32` for very fast byteswap operations with Arm MCU.
+
 ## Examples of using cases
 
 1. transmit & receive information data such as integers, size-variable strings, floats, structures, enums in a binary format from one device to another device via USB, TCP, etc.
@@ -26,10 +30,6 @@ It allows to use the xdr/rpc generator `rpcgen` to create c-code files and to im
 ## References
 
 Python has it own implementation (`xdrlib`). This can be used to check/debug function outputs.
-
-## Feature
-
-The library uses the functions `__builtin_bswap16`, `__builtin_bswap32` for very fast byteswap operations with Arm MCU.
 
 ## License
 
