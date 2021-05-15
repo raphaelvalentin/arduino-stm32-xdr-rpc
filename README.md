@@ -15,8 +15,8 @@ A `diff` can be used to observe the code differences.
 
 ## Examples of using cases
 
-1. transmit & receive (block / stream) information data such as integers, size-variable strings, floats, structures, enums in a binary format from one device to another device via USB, TCP, etc.
-2. store & load (block / stream) information data such as integers, size-variable strings, floats, structures, enums in a binary format into a memory such as Flash, EEprom, etc.
+1. transmit & receive information data such as integers, size-variable strings, floats, structures, enums in a binary format from one device to another device via USB, TCP, etc.
+2. store & load information data such as integers, size-variable strings, floats, structures, enums in a binary format into a memory such as Flash, EEprom, etc.
 3. protocols such as VXI11 designed for connecting instruments (such as oscilloscopes, multimeters, spectrum analyzers, etc.) to controllers (e.g., PCs) use the underlying XDR/RPC protocol.
 
 ## Why reuse the c-code originally described by Sun
