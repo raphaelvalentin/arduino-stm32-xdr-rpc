@@ -23,7 +23,7 @@ It allows to use the xdr/rpc generator `rpcgen` to create c-code files and to im
 
 ## License
 
-Except the *.ino files (MIT license), despite the modification, the c source codes are not belong to me. Please refer to the license description for each file.
+Except the *.ino files (MIT license), and despite the code modifications, the entire source code is not belong to me. Please refer to the license description for each file.
 
 ## More information at
 
