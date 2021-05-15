@@ -8,7 +8,7 @@ Tested with the Arduino 1.8.13 IDE, STMCore lib for a STM32F405 MCU as a proof o
 ## Purpose
 
 From what I can see until now, I did not see any clear implementation of XDR/RPC with Arduino, etc. (compile with an arm g++ compiler).
-Mostly use with Ethernet in OS (e.g. NFS), I can see XDR of great interest as a data packing layer in order to unify transport communication (pack and stream) between devices but also to unify the storing of data (pack and stream) in small memory devices (e.g. parameters, data log) and keep fast performance.
+Mostly use with Ethernet applications in OS (e.g. NFS), I can see XDR of great interest as a data packing layer in order to unify transport communication (pack and stream) between devices but also to unify the storing of data (pack and stream) in small memory devices (e.g. parameters, data log) and keep fast performance.
 
 Adapted from the source codes of `portablexdr-4.9.1` (https://github.com/Alexpux/portablexdr) and `bsd-xdr-master` (https://github.com/woodfishman/bsd-xdr).
 A `diff` can be used to observe the code differences.
