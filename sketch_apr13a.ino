@@ -27,7 +27,7 @@ void setup() {
     Serial.println(p.x_handy);
     Serial.flush();
 
-//   const char test_string[] = "totoa"; // do not work with xdr_string but works with xdr_opaque
+//   const char test_string[] = "test_xdrmem_string"; // do not work with xdr_string but works with xdr_opaque
     const char *test_string = "test_xdrmem_string";
 
     int ret = xdr_string(&p,  (char **) &test_string, strlen(test_string));
