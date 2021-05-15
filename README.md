@@ -25,7 +25,11 @@ It allows to use the xdr/rpc generator `rpcgen` to create c-code files and to im
 
 ## References
 
-1. python has it own implementation (`xdrlib`). This can be used to check/debug function outputs.
+Python has it own implementation (`xdrlib`). This can be used to check/debug function outputs.
+
+## Feature
+
+The library uses the functions `__builtin_bswap16`, `__builtin_bswap32` for very fast byteswap operations with Arm MCU.
 
 ## License
 
